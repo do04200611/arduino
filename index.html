@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* CSS for button styling */
+      /*버튼 스타일을 지정한 코드*/
+        .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #0074d9; /* Button background color */
+        color: #fff; /* Button text color */
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+      }
+       .button:hover {
+        background-color: #99ffcc; /* Change background color on hover */
+        cursor: pointer; /* Change cursor style on hover */
+      }
+      .vertical-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      /*호스팅 페이지로 가는 버튼을 보여주는 코드*/
+      .hostingpagebutton{
+         display: inline-block;
+        padding: 10px 20px;
+        background-color: #0074d9; /* Button background color */
+        color: #fff; /* Button text color */
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+     .hostingpagebutton:hover {
+        background-color: #99ffcc; /* Change background color on hover */
+        cursor: pointer; /* Change cursor style on hover */
+      }
+      
+      /*이미지 스타일을 지정하는 코드*/
+     .image {
+        width: 30px; /* 이미지의 폭을 30px로 설정 */
+        height: 30px; /* 이미지의 높이를 30px로 설정 */
+      }
+       .image:hover {
+        background-color: #99ffcc; /* Change background color on hover */
+        cursor: pointer; /* Change cursor style on hover */
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <!-- Image display with a hyperlink -->
+    <!--학교 홈페이지로 이동시키는 코드 -->
+    <a href="https://www.dit.ac.kr/kr">
+      <img class="image" src="https://i.namu.wiki/i/3aLWeLRv7F_yqLovaN5TyyuQvP33rDQC1gygNpSN9efhTzBsBG4WTdTK-vZDT0vaDDLaP45do6scdbur4xk2Mg.svg"/>
+    </a>
+    
+     <!--학과 홈페이지로 이동시키는 코드 -->
+     <a href="https://www.dit.ac.kr/cs/">
+      <img class="image" src="data:image/png;base64,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"/>
+    </a>
+    
+   <!--해당 호스팅 페이지 github 레파지토리로 이동시키는 코드 -->
+    <a href="https://github.com/do04200611/CORODOVA/tree/main">
+      <img class="image" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+    </a>
+    
+   <!--해당 호스팅 페이지 github로 이동시키는 코드 -->
+    <a href="https://github.com/do04200611">
+      <img class="image" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+    </a>
+    
+    <!--김강현의 IT 학습 체널로 이동시키는 코드 -->
+    <a href="https://www.youtube.com/channel/UC484ZJMavtoPOI4ey-HFdCA">
+      <img  class="image" src="https://i.pinimg.com/originals/24/24/12/242412a32af5cca3cb114cfee0cd3d8b.png"/>
+    </a>
+    
+    <!--자기 소개 코드(한국어 버전) -->
+    <p>안녕하십니까 저는 동의과학대학교 컴퓨터학과 2년제 김강현이라고 합니다.</p>
+    <p>github 영상이며, 제가 지금까지 해온 실습 영상을 올렸습니다.</p>
+    
+    <!--자기 소개 코드(일어 버전) -->
+    <p>こんにちは初めまして、私は東義科学大学コンピューター学科二年生キムガンヒョンと申します。私は多数の校内大会に参加しており、夜遅くまで勉強をしています。</p> 
+    <p>このような私の真面目さで御社に貢献できると思います。</p>
+
+    <div class="vertical-menu">
+      <!--해당 호스팅 페이지의 git 디렉토리로 이동시키는 코드 -->
+      <a href="./week2/report/index.html" class="button">2주차</a>
+      <a href="./week3/report/index.html" class="button">3주차</a>
+      <a href="./week5/report/index.html" class="button">5주차</a>
+      <a href="./week6/index.html" class="button">6주차</a>
+      <a href="./gitsourcecode/index.html" class="button">git에 소스코드로 파일들 올리기</a>
+    </div>
+    
+    <!--다른 호스팅 페이지로 이동시키는 버튼 코드 부분-->
+     <button class="hostingpagebutton" id="toggleButton">다른 호스팅 페이지</button>
+    <div class="hidden" id="hiddenButtons">
+      
+      <!-- Code for 2주차 -->
+      <a href="https://do04200611.github.io/MobilePorjectReport/" class="button">2023년 1학기 모바일 프로젝트 호스트 페이지</a>
+      <a href="https://do04200611.github.io/BackEndTeamProject/" class="button">2023년 1학기 백앤드 팀 프로젝트 호스트 페이지</a>
+      <a href="https://do04200611.github.io/JavaScript/" class="button">2023년 1학기 과제 호스트 페이지</a>
+    </div>
+    <!--script 부분 -->
+    <script>
+       <!--다른 호스팅 페이지로 이동시키는 버튼 코드 부분-->
+      const toggleButton = document.getElementById('toggleButton');
+    const hiddenButtons = document.getElementById('hiddenButtons');
+
+    toggleButton.addEventListener('click', () => {
+      if (hiddenButtons.style.display === 'none') {
+        hiddenButtons.style.display = 'block';
+      } else {
+        hiddenButtons.style.display = 'none';
+      }
+    });
+    </script>
+  </body>
+</html>
