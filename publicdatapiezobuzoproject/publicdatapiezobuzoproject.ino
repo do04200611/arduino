@@ -1,52 +1,61 @@
 #include <ESP8266WiFi.h>
-#include <ESP8266WebServer.h>
 
-const char* ssid = "Your_SSID";        // 여기에 Wi-Fi 네트워크 이름 (SSID)을 입력하세요
-const char* password = "Your_Password";  // 여기에 Wi-Fi 암호를 입력하세요
+const char *ssid = "DIT_FREE_WiFi";
+const char *password = "";
+#define piezzo D1
+int piezzostate = LOW;
 
-ESP8266WebServer server(80);
-
-int buzzerPin = D1;  // 피에조 부저를 연결한 핀 번호
-
-bool soundPlaying = false;
+WiFiServer server(80);
+WiFiClient client;
 
 void setup() {
   Serial.begin(115200);
-
-  // Wi-Fi 연결
+  pinMode(piezzo, OUTPUT);
   WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi...");
-  }
-  Serial.println("Connected to WiFi");
 
-  server.on("/", HTTP_GET, handleRoot);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");
+  Serial.print("IP: ");
+  Serial.println(WiFi.localIP());
+
   server.begin();
+  Serial.println("HTTP Server started.");
 }
 
 void loop() {
-  server.handleClient();
-  if (soundPlaying) {
-    // 여기에 소리 재생 중에 수행할 작업을 추가할 수 있습니다.
+  client = server.available();
+  if (!client) return;
+
+  Serial.println("new client");
+  while (!client.available()) {
+    delay(1);
   }
-}
 
-void handleRoot() {
-  String html = "<html><body>";
-  html += "<button onclick='playSound()'>소리 재생</button>";
-  html += "<button onclick='stopSound()'>소리 정지</button>";
-  html += "<script>function playSound() { fetch('/play'); } function stopSound() { fetch('/stop'); }</script>";
-  html += "</body></html>";
-  server.send(200, "text/html", html);
-}
+  String request = client.readStringUntil('\r');
+  Serial.println(request);
+  client.flush();
 
-void playSound() {
-  tone(buzzerPin, 1000);  // 1000 Hz 주파수로 소리를 내도록 설정
-  soundPlaying = true;
-}
+  if (request.indexOf("GET /piezzoOn") != -1) {
+    digitalWrite(piezzo, HIGH);
+    piezzostate = HIGH;
+  }
+  if (request.indexOf("GET /piezzoOff") != -1) {
+    digitalWrite(piezzo, LOW);
+    piezzostate = LOW;
+  }
 
-void stopSound() {
-  noTone(buzzerPin);  // 소리 정지
-  soundPlaying = false;
+  client.println("HTTP/1.1 200 OK");
+  client.println("Content-Type: text/html; charset=UTF-8");
+  client.println("");
+
+  String response = "<!DOCTYPE HTML><HTML><br>";
+  response += "Click <a href=\"/piezzoOff\">here</a> 버튼을 누르세요<br>";
+  response += "Click <a href=\"/piezzoOn\">here</a> 버튼을 누르세요<br>";
+  response += "</HTML>";
+
+  client.println(response);
 }
