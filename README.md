@@ -9,4 +9,5 @@
 ### [2023년 1학기 모바일 호스트 페이지입니다.](https://do04200611.github.io/MobilePorjectReport/)
 ### [이 레파지토리의 호스팅 페이지](https://do04200611.github.io/arduino/)
 ### [wifi 정보를 lcd 띄우기](https://www.youtube.com/watch?v=ahKks-Nlcj8)
-### [ThingSpeak에 온습도 데이터 출력하기](https://www.youtube.com/watch?v=xYFIW5KN7jE)
+### [ThingSpeak에 온습도 데이터 출력하기](https://www.youtube.com/watch?v=xYFIW5KN7jE) 
+### [웹 페이지에 온습도 출력하기](https://www.youtube.com/watch?v=fqGMlaPy6Zg)
