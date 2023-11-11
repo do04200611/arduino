@@ -1,5 +1,5 @@
 <img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
-![widget](https://github-readme-stats.vercel.app/api/top-langs/?username=do04200611&layout=compact)
+![widget](https://arduino-readme-stats.vercel.app/api/top-langs/?username=do04200611&layout=compact)
 
 ## 제가 만든 웹 페이지들
 ### [저를 소개하는 페이지입니다.](https://www.canva.com/design/DAFuYuBgZUs/s-JmJg43upgSn_3hA5ckbg/edit)
