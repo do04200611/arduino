@@ -17,3 +17,5 @@
 ### [공공데이터 미세먼지 데이터 상태 출력하는 영상입니다.](https://www.youtube.com/watch?v=Kx_GNM0-79k)
 ### [LCD를 이용해서 LED를 끄는 것입니다.](https://www.youtube.com/watch?v=y33I_QGTM3c)
 ### [시리얼 모니터에 지역의 온도 습도를 띄우는  영상](https://www.youtube.com/watch?v=vdfIM9Lhlps)
+### [웹 서버에 문자 출력하기](https://www.youtube.com/shorts/UwctYmhBJ5I)
+
