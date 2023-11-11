@@ -15,3 +15,4 @@
 ### [웹 페이지에 온습도 출력하기](https://www.youtube.com/watch?v=fqGMlaPy6Zg)
 ### [LCD를 이용해서 온도를 측정하는 영상입니다.](https://www.youtube.com/watch?v=TxiAmZT7U4g)
 ### [공공데이터 미세먼지 데이터 상태 출력하는 영상입니다.](https://www.youtube.com/watch?v=Kx_GNM0-79k)
+### [LCD를 이용해서 LED를 끄는 것입니다.](https://www.youtube.com/watch?v=y33I_QGTM3c)
