@@ -18,3 +18,4 @@
 ### [시리얼 모니터에 지역의 온도 습도를 띄우는  영상](https://www.youtube.com/watch?v=vdfIM9Lhlps)
 ### [웹 서버에 문자 출력하기](https://www.youtube.com/shorts/UwctYmhBJ5I)
 ### [텔레그램 메시지 보내기](https://www.youtube.com/watch?v=gnahxwbEI4M)
+### [텔레그램에 온습도 데이터(불쾌 지수 띄우기)](https://www.youtube.com/watch?v=szraAEoabFY)
