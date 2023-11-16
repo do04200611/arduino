@@ -19,3 +19,4 @@
 ### [웹 서버에 문자 출력하기](https://www.youtube.com/shorts/UwctYmhBJ5I)
 ### [텔레그램 메시지 보내기](https://www.youtube.com/watch?v=gnahxwbEI4M)
 ### [텔레그램에 온습도 데이터(불쾌 지수 띄우기)](https://www.youtube.com/watch?v=szraAEoabFY)
+### [텔레그램으로 led와 피에조 부조 작동시키기](https://www.youtube.com/watch?v=o7kvIzdei80)
