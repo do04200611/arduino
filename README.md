@@ -1,7 +1,7 @@
 <img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
 
 ## 실습 영상
-![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=앱%20웹%20개발%20페이지)
+![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
 ### [실습영상 올린 유튜브 주소입니다.](https://www.youtube.com/watch?v=ahKks-Nlcj8&list=PLa9mEB-p4bAR8zgW_4FiV8u6EjNJJ3kDY)<br>
 ### [wifi 정보를 lcd 띄우기](https://www.youtube.com/watch?v=ahKks-Nlcj8)
 ### [ThingSpeak에 온습도 데이터 출력하기](https://www.youtube.com/watch?v=xYFIW5KN7jE) 
