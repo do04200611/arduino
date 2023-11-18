@@ -3,10 +3,6 @@
 ## 실습 영상
 ![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
 
-### []()
-### [텔레그램 메시지 보내기](https://www.youtube.com/watch?v=gnahxwbEI4M)
-### [텔레그램에 온습도 데이터(불쾌 지수 띄우기)](https://www.youtube.com/watch?v=szraAEoabFY)
-### [텔레그램으로 led와 피에조 부조 작동시키기](https://www.youtube.com/watch?v=o7kvIzdei80)
  | プロジェクト名           | 期間          | 説明                 |
  |------------------------|---------------|--------------------|
  |<a href="https://www.youtube.com/watch?v=ahKks-Nlcj8"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"> |10月 | wifi 정보를 lcd 띄우기|
@@ -18,6 +14,9 @@
 |<a href="https://www.youtube.com/watch?v=vdfIM9Lhlps"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|시리얼 모니터에 지역의 온도 습도를 띄우는  영상|
 |<a href="https://www.youtube.com/watch?v=vdfIM9Lhlps"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|시리얼 모니터에 지역의 온도 습도를 띄우는  영상|
 |<a href="https://www.youtube.com/shorts/UwctYmhBJ5I"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|웹 서버에 문자 출력하기|
+|<a href="https://www.youtube.com/watch?v=vdfIM9Lhlps"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|텔레그램으로 led와 피에조 부조 작동시키기|
+|<a href="https://www.youtube.com/watch?v=szraAEoabFY"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|11月|텔레그램에 온습도 데이터(불쾌 지수 띄우기|
+|<a href="https://www.youtube.com/watch?v=o7kvIzdei80"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|11月|텔레그램 메시지 보내기|
  <p align="center">
   Contact 
   📞82-010-3037-9096📞
