@@ -1,9 +1,9 @@
+![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
+ 
  ## My tech stack📚
 <img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
 
 ## 실습 영상
-![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
-
 |  | プロジェクト名     | 期間          | 説明                 |
 |------------------------|------------------------|---------------|--------------------|
  |1|<a href="https://www.youtube.com/watch?v=ahKks-Nlcj8"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"> |10月 | wifi 정보를 lcd 띄우기|
