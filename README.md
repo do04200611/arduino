@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
  
  ## My tech stack📚
-<img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
+<img src="https://img.shields.io/badge/arduino-A8B9CC?style=flat-square&logo=arduino&logoColor=white"/>
 
 ## 실습 영상
 |  | プロジェクト名     | 期間          | 説明                 |
