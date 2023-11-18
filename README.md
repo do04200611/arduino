@@ -14,7 +14,12 @@
 ### [텔레그램 메시지 보내기](https://www.youtube.com/watch?v=gnahxwbEI4M)
 ### [텔레그램에 온습도 데이터(불쾌 지수 띄우기)](https://www.youtube.com/watch?v=szraAEoabFY)
 ### [텔레그램으로 led와 피에조 부조 작동시키기](https://www.youtube.com/watch?v=o7kvIzdei80)
-
+ | プロジェクト名           | 期間          | 説明                 |
+  |------------------------|---------------|--------------------|
+  | 校内大会ウェブプロジェクト | 09月 ~ 10月 | 野球競技掲示板    |
+  | javaプロジェクト          | 11月 ~ 12月 | チケット販売プログラム |
+  | javascriptプロジェクト | 11月 ~ 12月 | マイレージ登録機    |
+  | databaseプロジェクト          | 11月 ~ 12月 | 野球日程管理プログラム |
  <p align="center">
   Contact 
   📞82-010-3037-9096📞
