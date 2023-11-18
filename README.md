@@ -3,8 +3,6 @@
 ## 실습 영상
 ![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
 
-### []() 
-### [웹 페이지에 온습도 출력하기](https://www.youtube.com/watch?v=fqGMlaPy6Zg)
 ### [LCD를 이용해서 온도를 측정하는 영상입니다.](https://www.youtube.com/watch?v=TxiAmZT7U4g)
 ### [공공데이터 미세먼지 데이터 상태 출력하는 영상입니다.](https://www.youtube.com/watch?v=Kx_GNM0-79k)
 ### [LCD를 이용해서 LED를 끄는 것입니다.](https://www.youtube.com/watch?v=y33I_QGTM3c)
@@ -17,7 +15,7 @@
   |------------------------|---------------|--------------------|
   |<a href="https://www.youtube.com/watch?v=ahKks-Nlcj8"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"> |10月 | wifi 정보를 lcd 띄우기|
   |<a href="https://www.youtube.com/watch?v=xYFIW5KN7jE"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |ThingSpeak에 온습도 데이터 출력하기 |
-  | javascriptプロジェクト | 11月 ~ 12月 | マイレージ登録機    |
+  |<a href="https://www.youtube.com/watch?v=fqGMlaPy6Zg"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |웹 페이지에 온습도 출력하기|
   | databaseプロジェクト          | 11月 ~ 12月 | 野球日程管理プログラム |
  <p align="center">
   Contact 
