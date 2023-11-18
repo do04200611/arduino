@@ -3,8 +3,8 @@
 ## 실습 영상
 ![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
 
- | || プロジェクト名        | 期間          | 説明                 |
- |-|------------------------|---------------|--------------------|
+ | | | プロジェクト名        | 期間          | 説明                 |
+ |------------------------|------------------------|---------------|--------------------|
  |1||<a href="https://www.youtube.com/watch?v=ahKks-Nlcj8"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"> |10月 | wifi 정보를 lcd 띄우기|
  |<a href="https://www.youtube.com/watch?v=xYFIW5KN7jE"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |ThingSpeak에 온습도 데이터 출력하기 |
  |<a href="https://www.youtube.com/watch?v=fqGMlaPy6Zg"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |웹 페이지에 온습도 출력하기|
