@@ -1,11 +1,5 @@
 <img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
 
-## 제가 만든 웹 페이지들
- | プロジェクト名           | 作る期間          | 説明                 |
-  |------------------------|---------------|--------------------|
-  | [이 레파지토리의 호스팅 페이지](https://do04200611.github.io/arduino/)| 09月 ~ 10月 |이 레파지토리의 웹 호스팅 페이지입니다.|
- 
-
 ## 실습 영상
 
 ### [실습영상 올린 유튜브 주소입니다.](https://www.youtube.com/watch?v=ahKks-Nlcj8&list=PLa9mEB-p4bAR8zgW_4FiV8u6EjNJJ3kDY)<br>
@@ -20,3 +14,22 @@
 ### [텔레그램 메시지 보내기](https://www.youtube.com/watch?v=gnahxwbEI4M)
 ### [텔레그램에 온습도 데이터(불쾌 지수 띄우기)](https://www.youtube.com/watch?v=szraAEoabFY)
 ### [텔레그램으로 led와 피에조 부조 작동시키기](https://www.youtube.com/watch?v=o7kvIzdei80)
+
+ <p align="center">
+  📞 Contact 📞
+  📞82-010-3037-9096📞
+</p>
+
+<p align="center">
+
+ <a href="https://www.canva.com/design/DAFzY5opUiA/Ge33dSKE16cErBaDJDp-BA/edit">
+    <img src="https://img.shields.io/badge/canva-00C4CC?style=for-the-badge&logo=canva" alt="canva">
+  </a>
+  <a href="mailto:a01030379096@gmail.com">
+    <img src="https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=Gmail" alt="Gmail">
+  </a>
+  <a href="https://www.youtube.com/channel/UC484ZJMavtoPOI4ey-HFdCA">
+   <img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">
+ </a>
+</p>
+ 
