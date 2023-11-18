@@ -1,3 +1,4 @@
+ ## My tech stack📚
 <img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
 
 ## 실습 영상
@@ -17,13 +18,12 @@
  |10|<a href="https://www.youtube.com/watch?v=vdfIM9Lhlps"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|텔레그램으로 led와 피에조 부조 작동시키기|
  |11|<a href="https://www.youtube.com/watch?v=szraAEoabFY"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|11月|텔레그램에 온습도 데이터(불쾌 지수 띄우기|
  |12|<a href="https://www.youtube.com/watch?v=o7kvIzdei80"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|11月|텔레그램 메시지 보내기|
- <p align="center">
-  Contact 
-  📞82-010-3037-9096📞
-</p>
+ ## Contact
+
+  
 
 <p align="center">
-
+ 📞82-010-3037-9096📞
  <a href="https://www.canva.com/design/DAFzY5opUiA/Ge33dSKE16cErBaDJDp-BA/edit">
     <img src="https://img.shields.io/badge/canva-00C4CC?style=for-the-badge&logo=canva" alt="canva">
   </a>
