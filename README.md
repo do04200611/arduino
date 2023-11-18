@@ -3,7 +3,7 @@
 ## 실습 영상
 ![header](https://capsule-render.vercel.app/api?type=egg&color=gradient&height=300&section=header&text=welcome%2&fontSize=50&desc=Arduino%20실습%20영상%20레파지토리)
 
-### [LCD를 이용해서 LED를 끄는 것입니다.](https://www.youtube.com/watch?v=y33I_QGTM3c)
+### []()
 ### [시리얼 모니터에 지역의 온도 습도를 띄우는  영상](https://www.youtube.com/watch?v=vdfIM9Lhlps)
 ### [웹 서버에 문자 출력하기](https://www.youtube.com/shorts/UwctYmhBJ5I)
 ### [텔레그램 메시지 보내기](https://www.youtube.com/watch?v=gnahxwbEI4M)
@@ -15,7 +15,8 @@
  |<a href="https://www.youtube.com/watch?v=xYFIW5KN7jE"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |ThingSpeak에 온습도 데이터 출력하기 |
  |<a href="https://www.youtube.com/watch?v=fqGMlaPy6Zg"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |웹 페이지에 온습도 출력하기|
  |<a href="https://www.youtube.com/watch?v=TxiAmZT7U4g"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|10月|LCD를 이용해서 온도를 측정하는 영상입니다.|
-|<a href="https://www.youtube.com/watch?v=Kx_GNM0-79k"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|10月|공공데이터 미세먼지 데이터 상태 출력하는 영상입니다.|
+|<a href="https://www.youtube.com/watch?v=Kx_GNM0-79k"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|공공데이터 미세먼지 데이터 상태 출력하는 영상입니다.|
+|<a href="https://www.youtube.com/watch?v=y33I_QGTM3c"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|9月|LCD를 이용해서 LED를 끄는 것입니다.|
  <p align="center">
   Contact 
   📞82-010-3037-9096📞
