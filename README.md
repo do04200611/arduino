@@ -1,15 +1,10 @@
 <img src="https://img.shields.io/badge/C++-A8B9CC?style=flat-square&logo=C++&logoColor=white"/>
 
 ## 제가 만든 웹 페이지들
-### [하이브리드 웹 디자인 github 호스팅 사이트 주소 입니다.](https://do04200611.github.io/CORODOVA/)
-### [2023년 1학기 모바일 호스트 페이지입니다.](https://do04200611.github.io/MobilePorjectReport/)
-
  | プロジェクト名           | 作る期間          | 説明                 |
   |------------------------|---------------|--------------------|
   | [이 레파지토리의 호스팅 페이지](https://do04200611.github.io/arduino/)| 09月 ~ 10月 |이 레파지토리의 웹 호스팅 페이지입니다.|
-  |[저를 소개하는 페이지입니다.](https://www.canva.com/design/DAFuYuBgZUs/s-JmJg43upgSn_3hA5ckbg/edit)|09月|저를 소개하는 페이지입니다.<br> 사용 프로그램 ![canva](https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva)|
-  | javascriptプロジェクト | 11月 ~ 12月 | マイレージ登録機    |
-  | databaseプロジェクト          | 11月 ~ 12月 | 野球日程管理プログラム |
+ 
 
 ## 실습 영상
 
