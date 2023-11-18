@@ -11,11 +11,12 @@
 ### [텔레그램에 온습도 데이터(불쾌 지수 띄우기)](https://www.youtube.com/watch?v=szraAEoabFY)
 ### [텔레그램으로 led와 피에조 부조 작동시키기](https://www.youtube.com/watch?v=o7kvIzdei80)
  | プロジェクト名           | 期間          | 説明                 |
-  |------------------------|---------------|--------------------|
-  |<a href="https://www.youtube.com/watch?v=ahKks-Nlcj8"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"> |10月 | wifi 정보를 lcd 띄우기|
-  |<a href="https://www.youtube.com/watch?v=xYFIW5KN7jE"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |ThingSpeak에 온습도 데이터 출력하기 |
-  |<a href="https://www.youtube.com/watch?v=fqGMlaPy6Zg"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |웹 페이지에 온습도 출력하기|
-  |<a href="https://www.youtube.com/watch?v=TxiAmZT7U4g"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|10月|LCD를 이용해서 온도를 측정하는 영상입니다.|
+ |------------------------|---------------|--------------------|
+ |<a href="https://www.youtube.com/watch?v=ahKks-Nlcj8"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"> |10月 | wifi 정보를 lcd 띄우기|
+ |<a href="https://www.youtube.com/watch?v=xYFIW5KN7jE"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |ThingSpeak에 온습도 데이터 출력하기 |
+ |<a href="https://www.youtube.com/watch?v=fqGMlaPy6Zg"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">| 10月 |웹 페이지에 온습도 출력하기|
+ |<a href="https://www.youtube.com/watch?v=TxiAmZT7U4g"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|10月|LCD를 이용해서 온도를 측정하는 영상입니다.|
+|<a href="https://www.youtube.com/watch?v=TxiAmZT7U4g"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">|10月|LCD를 이용해서 온도를 측정하는 영상입니다.|
  <p align="center">
   Contact 
   📞82-010-3037-9096📞
