@@ -15,7 +15,7 @@
 # click page
  | プロジェクト名           | 期間          | 
   |------------------------|---------------|
- |[독도를 소개하는 앱입니다.](https://www.youtube.com/watch?v=5SojzSlgjLg)|12月｜
+ |[물체 접근 경보기](https://www.youtube.com/watch?v=5SojzSlgjLg)|12月｜
 
 # 📞 Contact 
  <p align="center">
