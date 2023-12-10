@@ -11,7 +11,7 @@
 # click page
  | プロジェクト名           | 期間          | 説明　　　　　　　　　 |
   |------------------------|---------------|--------------------------|
- |[물체 접근 경보기](https://www.youtube.com/watch?v=5SojzSlgjLg)  <a href="https://www.youtube.com/channel/UC484ZJMavtoPOI4ey-HFdCA">
+ |<a href="https://www.youtube.com/channel/UC484ZJMavtoPOI4ey-HFdCA">
    <img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube">
  </a>|12月｜
 |<a href="https://kimganghyeon.my.canva.site/kimganghyeon"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>|
