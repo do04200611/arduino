@@ -11,18 +11,18 @@ const char *password = "czbagd3602";//wifi의 비밀 번호를 지정한다.
 
 #define TRIG_PIN D7 //TRIG_PIN을 D7로 지정한다.
 #define ECHO_PIN D8//ECHO_PIN을 D8로 지정한다.
-#define MAX_DISTANCE 200 
+#define MAX_DISTANCE 200 // 초음파 센서 측정의 최대 허용 거리를 정의합니다.
 #define LED_PIN D6 //LED를 제어하는 핀의 부분을 D6으로 지정합니다.
 
-NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE);
-ESP8266WebServer server(80);
+NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE); // 초음파 센서와의 상호 작용을 위한 NewPing 클래스의 인스턴스를 생성합니다.
+ESP8266WebServer server(80); // HTTP 요청을 처리하기 위해 포트 80에서 동작하는 ESP8266WebServer 클래스의 인스턴스를 생성합니다.
 
-X509List cert(TELEGRAM_CERTIFICATE_ROOT);
-WiFiClientSecure secured_client;
-UniversalTelegramBot bot(BOT_TOKEN, secured_client);
+X509List cert(TELEGRAM_CERTIFICATE_ROOT); // X509List 클래스의 인스턴스를 생성하고 Telegram API의 루트 인증서로 초기화합니다.
+WiFiClientSecure secured_client; // 안전한 Wi-Fi 클라이언트를 생성합니다.
+UniversalTelegramBot bot(BOT_TOKEN, secured_client); // Telegram 봇과 안전한 클라이언트를 사용하여 UniversalTelegramBot 클래스의 인스턴스를 생성합니다.
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200); //serial 모니터의 속도를 115200으로 지정한다.
 
   // 컴퓨터 시간을 네트워크 시간과 동기화하는 설정
   configTime(0, 0, "pool.ntp.org");
@@ -30,24 +30,25 @@ void setup() {
   // 텔레그램 API (api.telegram.org)를 위한 루트 인증서 추가
   secured_client.setTrustAnchors(&cert);
 
-  pinMode(TRIG_PIN, OUTPUT);
-  pinMode(ECHO_PIN, INPUT);
-  pinMode(LED_PIN, OUTPUT);
+  pinMode(TRIG_PIN, OUTPUT); // 초음파 센서의 트리거 핀을 출력으로 설정합니다.
+  pinMode(ECHO_PIN, INPUT); // 초음파 센서의 에코 핀을 입력으로 설정합니다.
+  pinMode(LED_PIN, OUTPUT); // LED 제어 핀을 출력으로 설정합니다.
 
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid, password);
+  WiFi.mode(WIFI_STA); // ESP8266을 Station 모드로 설정하여 Wi-Fi 연결을 수행합니다.
+  WiFi.begin(ssid, password); // 지정된 SSID와 비밀번호를 사용하여 Wi-Fi에 연결합니다.
 
-  // Wi-Fi에 연결
+  // Wi-Fi에 지정된 SSID와 비밀번호를 사용하여 연결을 시도합니다.
   WiFi.begin(ssid, password);
+  
+  // Wi-Fi 연결 상태가 WL_CONNECTED가 아닌 동안 반복합니다.
   while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(".");
+    delay(500); // 0.5초의 지연을 추가합니다.
+    Serial.print(".");  // 진행 상태를 표시하기 위해 점을 출력합니다.
   }
-
-  Serial.println("");
-  Serial.println("WiFi connected");
-  Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
+  Serial.println(""); // 새로운 줄을 출력하여 시리얼 모니터를 한 줄 아래로 이동시킵니다.
+  Serial.println("WiFi connected");// WiFi connected를 serial모니터에 출력합니다.
+  Serial.print("IP address: "); // 시리얼 모니터에 IP adress:를 출력합니다.
+  Serial.println(WiFi.localIP()); // 연결된 Wi-Fi의 로컬 IP 주소를 시리얼 모니터에 출력합니다.
 
   // 웹 서버 설정
   server.on("/", HTTP_GET, []() {
