@@ -78,4 +78,20 @@ void setup() {
 void loop() {
   server.handleClient();
   delay(1000); // Update web page every 1 second
+  int numNewMsg = bot.getUpdates(bot.last_message_received + 1);
+  
+  for(int i=0; i<numNewMsg; i++) {
+    //전송된 메세지ㅇ서 chat_id 알아내기
+    String chat_id = bot.messages[i].chat_id;
+    String text = bot.messages[i].text;
+    Serial.println(text);
+    Serial.println(chat_id);
+
+    if (text == " 재난상황에 어떻갑작스러운게 대처해?") {
+      bot.sendMessage(chat_id, "비상시에 필요한 음식을 준비하세요");
+    }
+    if (text == "재난 발생 시 어떻게 해") {
+      bot.sendMessage(chat_id, "병원에 빨리가세요");
+    }
+  }
 }
