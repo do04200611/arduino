@@ -12,7 +12,7 @@
  | プロジェクト名           | 期間          | 説明　　　　　　　　　 |
   |------------------------|---------------|--------------------------|
  |[물체 접근 경보기](https://www.youtube.com/watch?v=5SojzSlgjLg)|12月｜
-|　<a href="https://kimganghyeon.my.canva.site/kimganghyeon"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>(https://www.canva.com/design/DAF2kF55DHU/0fxlRDs2bigCKgitLTJ9dA/edit)|
+|<a href="https://kimganghyeon.my.canva.site/kimganghyeon"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>|
 |12月|<a href="https://kimganghyeon.my.canva.site/kimganghyeon"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>를 이용해서 프로젝트를 설명하는 자료|
 # 📞 Contact 
  <p align="center">
