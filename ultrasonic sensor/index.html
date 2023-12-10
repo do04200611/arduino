@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- 문자 인코딩 및 반응형 디자인을 위한 뷰포트 설정 -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ultrasonic Sensor Web Page</title>
+  <!-- 웹페이지 제목 설정 -->
+  <title>초음파 센서 웹 페이지</title>
+  <!-- 웹페이지 스타일링 -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -26,66 +29,75 @@
   </style>
 </head>
 <body>
-  <h1>Ultrasonic Sensor Web Page</h1>
-  <p id="distance">Loading...</p>
-  <p id="status">Status: Unknown</p>
-  <img id="image" src="" alt="Image">
+  <!-- 웹페이지 제목 헤더 -->
+  <h1>초음파 센서 웹 페이지</h1>
+  <!-- 초기 로딩 텍스트와 함께 거리를 나타내는 문단 -->
+  <p id="distance">로딩 중...</p>
+  <!-- 초기 상태를 나타내는 텍스트와 함께 상태를 나타내는 문단 -->
+  <p id="status">상태: 알 수 없음</p>
+  <!-- 이미지를 표시하는 이미지 엘리먼트 -->
+  <img id="image" src="" alt="이미지">
 
-  <!-- Add audio elements for playing sounds -->
+  <!-- 소리 재생을 위한 오디오 엘리먼트 추가 -->
   <audio id="safeAudio" src="safe.mp3"></audio>
   <audio id="dangerAudio" src="danger.mp3"></audio>
 
-  
-
+  <!-- 거리를 업데이트하고 오디오를 제어하는 자바스크립트 코드 -->
   <script>
+    // 거리 정보를 업데이트하는 함수
     function updateDistance() {
-      // Use AJAX to fetch the distance from the ESP8266
+      // AJAX를 사용하여 ESP8266에서 거리를 가져옴
       var xhr = new XMLHttpRequest();
       xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && xhr.status == 200) {
+          // 받은 거리 값을 정수로 파싱
           var distance = parseInt(xhr.responseText);
-          document.getElementById("distance").innerHTML = "Distance: " + distance + " cm";
+          // 새로운 값으로 거리 문단 업데이트
+          document.getElementById("distance").innerHTML = "거리: " + distance + " cm";
 
-          // Update status based on distance
+          // 거리에 기반하여 상태 및 웹페이지 엘리먼트 업데이트
           var statusElement = document.getElementById("status");
-          if (distance === 0 ) {
-            statusElement.innerHTML = "Status: LED ON (Danger)";
-            document.body.style.backgroundColor = "red";  // Change background color to red
+          if (distance === 0) {
+            statusElement.innerHTML = "상태: LED 켜짐 (위험)";
+            document.body.style.backgroundColor = "red";  // 배경색을 빨간색으로 변경
             document.getElementById("image").src = "danger.jpg";
             playAudio("dangerAudio");
             stopAudio("safeAudio");
           } else if (distance > 20) {
-            statusElement.innerHTML = "Status: LED OFF (Safe)";
-            document.body.style.backgroundColor = "green";  // Change background color to green
+            statusElement.innerHTML = "상태: LED 꺼짐 (안전)";
+            document.body.style.backgroundColor = "green";  // 배경색을 녹색으로 변경
             document.getElementById("image").src = "safe.jpg";
             playAudio("safeAudio");
             stopAudio("dangerAudio");
           } 
         }
       };
+      // 지정된 URL로 비동기 GET 요청 수행
       xhr.open("GET", "http://172.30.1.46/", true);
       xhr.send();
     }
 
+    // 주어진 오디오 ID에 따라 오디오를 재생하는 함수
     function playAudio(audioId) {
       var audio = document.getElementById(audioId);
 
-      // Check if the audio is already playing to avoid restarting
+      // 이미 재생 중인지 확인하여 다시 시작하지 않도록 함
       if (audio.paused) {
         audio.play();
       }
     }
 
+    // 주어진 오디오 ID에 따라 오디오를 정지하는 함수
     function stopAudio(audioId) {
       var audio = document.getElementById(audioId);
       audio.pause();
       audio.currentTime = 0;
     }
 
-    // Update the distance every 1 second
+    // setInterval을 사용하여 1초마다 거리 업데이트
     setInterval(updateDistance, 1000);
 
-    // Initial update
+    // 페이지 로드 시 초기 업데이트
     updateDistance();
   </script>
 </body>
