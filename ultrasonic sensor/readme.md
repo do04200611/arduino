@@ -9,10 +9,11 @@
 <img src="https://img.shields.io/badge/arduino-00878F?style=flat-square&logo=arduino&logoColor=white"/>
 
 # click page
- | プロジェクト名           | 期間          | 
-  |------------------------|---------------|
+ | プロジェクト名           | 期間          | 説明　　　　　　　　　 |
+  |------------------------|---------------|--------------------------|
  |[물체 접근 경보기](https://www.youtube.com/watch?v=5SojzSlgjLg)|12月｜
-
+|<a href="https://kimganghyeon.my.canva.site/kimganghyeon"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>(https://www.canva.com/design/DAF2kF55DHU/0fxlRDs2bigCKgitLTJ9dA/edit)|
+|12月|<a href="https://kimganghyeon.my.canva.site/kimganghyeon"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>를 이용해서 프로젝트를 설명하는 자료|
 # 📞 Contact 
  <p align="center">
   📞82-010-3037-9096📞
