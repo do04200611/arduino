@@ -7,7 +7,6 @@
 
 # Language of repository📚
 <img src="https://img.shields.io/badge/arduino-00878F?style=flat-square&logo=arduino&logoColor=white"/>
-# result
 
 # click page
  | プロジェクト名           | 期間          | 
