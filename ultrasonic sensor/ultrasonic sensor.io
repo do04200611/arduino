@@ -1,9 +1,15 @@
+#include <UniversalTelegramBot.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <NewPing.h>
 
+
 const char *ssid = "KT_GiGA_Mesh_7C87";
 const char *password = "czbagd3602";
+
+#define BOT_TOKEN "6936207643:AAFmNlFqu_xoG5g_dsH7e2xkJ-tOGiivWgw"
+#define CHAT_ID "6925537602"
+
 #define TRIG_PIN D7
 #define ECHO_PIN D8
 #define MAX_DISTANCE 200
@@ -12,13 +18,27 @@ const char *password = "czbagd3602";
 NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE);
 ESP8266WebServer server(80);
 
+X509List cert(TELEGRAM_CERTIFICATE_ROOT);
+WiFiClientSecure secured_client;
+UniversalTelegramBot bot(BOT_TOKEN, secured_client);
+
 void setup() {
   Serial.begin(115200);
 
+   //컴퓨터의 시간을 네트워크 시간과 맞추기 위한 설정
+  configTime(0, 0, "pool.ntp.org");
+  
+  //텔레그램의 api에 대한 루트 인증서 추가(api.telegram.org)
+  secured_client.setTrustAnchors(&cert);
+  
   pinMode(TRIG_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
 
+  
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+  
   // Connect to Wi-Fi
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
@@ -43,8 +63,10 @@ void setup() {
     // Update LED based on distance
     if (distance > 20) {
       digitalWrite(LED_PIN, LOW);  // Turn off the LED
+      bot.sendMessage(CHAT_ID, "Safe! Distance: " + String(distance) + "cm.");
     } else if (distance == 0) {
       digitalWrite(LED_PIN, HIGH);  // Turn on the LED
+       bot.sendMessage(CHAT_ID, "⚠️ Warning! Collision detected. Object at " + String(distance) + "cm.");
     }
 
     server.send(200, "text/plain", String(distance));
