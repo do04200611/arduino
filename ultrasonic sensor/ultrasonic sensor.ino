@@ -50,14 +50,13 @@ void setup() {
   Serial.print("IP address: "); // 시리얼 모니터에 IP adress:를 출력합니다.
   Serial.println(WiFi.localIP()); // 연결된 Wi-Fi의 로컬 IP 주소를 시리얼 모니터에 출력합니다.
 
-  // 웹 서버 설정
-  server.on("/", HTTP_GET, []() {
-    unsigned int distance = sonar.ping_cm();
+  server.on("/", HTTP_GET, []() { // 웹 서버가 "/" 경로로 HTTP GET 요청을 처리하는 핸들러를 등록합니다.
+    unsigned int distance = sonar.ping_cm();  // 초음파 센서를 사용하여 거리를 센티미터로 측정합니다.
 
     // CORS 헤더 추가
-    server.sendHeader("Access-Control-Allow-Origin", "*");
-    server.sendHeader("Access-Control-Allow-Methods", "GET");
-    server.sendHeader("Access-Control-Allow-Headers", "Content-Type");
+    server.sendHeader("Access-Control-Allow-Origin", "*"); // 모든 도메인에서의 요청을 허용
+    server.sendHeader("Access-Control-Allow-Methods", "GET"); // GET 메소드를 허용
+    server.sendHeader("Access-Control-Allow-Headers", "Content-Type"); // Content-Type 헤더를 허용
 
     // 거리에 따라 LED 업데이트
     if (distance > 20) { //거리가 20 이상이면
@@ -68,24 +67,25 @@ void setup() {
       bot.sendMessage(CHAT_ID, "⚠️ 경고! 충돌 감지됨. 거리: " + String(distance) + "cm."); // ⚠️ 경고! 충돌 감지됨. 거리:와 거리를 같이 출력한다.
     }
 
-    server.send(200, "text/plain", String(distance));
+    server.send(200, "text/plain", String(distance)); //HTTP 응답 코드 200(OK)를 반환하고, 텍스트 형식의 본문에 거리 정보를 포함하여 클라이언트에 응답을 보냅니다.
   });
 
-  server.begin();
+  server.begin(); // 웹 서버를 시작합니다.
 }
 
 void loop() {
-  server.handleClient();
+  server.handleClient(); // 웹 서버가 클라이언트 요청을 처리하고 응답하는 역할을 수행합니다.
   delay(1000); // 1초마다 웹 페이지 업데이트
-  int numNewMsg = bot.getUpdates(bot.last_message_received + 1);
+  int numNewMsg = bot.getUpdates(bot.last_message_received + 1); // Telegram 봇에서 새로운 메시지 업데이트를 가져와서 처리합니다.
 
-  for (int i = 0; i < numNewMsg; i++) {
-    // 전송된 메시지에서 chat_id 찾기
-    String chat_id = bot.messages[i].chat_id;
-    String text = bot.messages[i].text;
+  // 새로운 메시지 업데이트 수만큼 반복하여 각 메시지를 처리합니다.
+for (int i = 0; i < numNewMsg; i++) {
+    String chat_id = bot.messages[i].chat_id; // 전송된 메시지에서 chat_id를 찾습니다.
+    String text = bot.messages[i].text; // 전송된 메시지에서 텍스트를 가져와서 시리얼 모니터에 출력합니다.
     Serial.println(text);
-    Serial.println(chat_id);
-
+    Serial.println(chat_id); // 전송된 메시지의 chat_id를 시리얼 모니터에 출력합니다.
+   
+  
     if (text == "어떻게 급작스런 재난 상황에 대응하나요?") { //'어떻게 급작스런 재난 상황에 대응하나요?'를 입력하면
       bot.sendMessage(chat_id, "비상 시 음식 준비"); //"비상 시 음식 준비"라는 메시지를 보냅니다.
     }
