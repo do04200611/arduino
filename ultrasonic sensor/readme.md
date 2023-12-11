@@ -12,7 +12,7 @@
  | プロジェクト名           | 期間          | 説明　　　　　　　　　 |
   |------------------------|---------------|--------------------------|
  |<a href="https://www.youtube.com/watch?v=5SojzSlgjLg&t=2s"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"> </a>|12月|프로젝트를 실행하는 <a href="https://www.youtube.com/watch?v=5SojzSlgjLg&t=2s"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"> </a>에 올려놓은 영상입니다.|
-|<a href="https://www.canva.com/design/DAF2kF55DHU/0fxlRDs2bigCKgitLTJ9dA/edit"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>를 이용해서 프로젝트를 설명하는 자료|12月|프로젝트의 대해서 <a href="https://www.canva.com/design/DAF2kF55DHU/0fxlRDs2bigCKgitLTJ9dA/edit"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>를 이용해서 설명하는 발표자료입니다.|
+|<a href="https://www.canva.com/design/DAF2kF55DHU/0fxlRDs2bigCKgitLTJ9dA/edit"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a><a href="https://www.canva.com/design/DAF2kF55DHU/0fxlRDs2bigCKgitLTJ9dA/edit"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>를 이용해서 설명하는 발표자료입니다.|
 # 📞 Contact 
  <p align="center">
   📞82-010-3037-9096📞
